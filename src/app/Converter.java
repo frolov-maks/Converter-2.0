@@ -6,7 +6,7 @@ public class Converter {
 
     private static final double CONV_M = 0.621371;
 
-    public static void converter (String[] args) {
+    public static void main (String[] args) {
         System.out.println("Converter app v. 2.0");
 
         double miles = 10;
@@ -23,6 +23,6 @@ public class Converter {
         return miles * CONV_KM;
     }
     private static double convKmToMiles(double kilometers) {
-        return kilometers * CONV_KM;
+        return kilometers * CONV_M;
     }
 }
